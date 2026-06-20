@@ -1,0 +1,1 @@
+/home/group5/bin_weighing_ws/src/gv_ros2_node/launch/gv_camera.launch.py

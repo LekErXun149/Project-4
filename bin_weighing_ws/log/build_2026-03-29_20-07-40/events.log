@@ -1,0 +1,225 @@
+[0.000000] (-) TimerEvent: {}
+[0.001896] (camera_ros) JobQueued: {'identifier': 'camera_ros', 'dependencies': OrderedDict()}
+[0.002434] (gv_ros2) JobQueued: {'identifier': 'gv_ros2', 'dependencies': OrderedDict()}
+[0.004124] (hx711_scale) JobQueued: {'identifier': 'hx711_scale', 'dependencies': OrderedDict()}
+[0.005141] (camera_ros) JobStarted: {'identifier': 'camera_ros'}
+[0.063932] (gv_ros2) JobStarted: {'identifier': 'gv_ros2'}
+[0.096699] (hx711_scale) JobStarted: {'identifier': 'hx711_scale'}
+[0.100783] (-) TimerEvent: {}
+[0.150003] (camera_ros) JobProgress: {'identifier': 'camera_ros', 'progress': 'cmake'}
+[0.156207] (camera_ros) JobProgress: {'identifier': 'camera_ros', 'progress': 'build'}
+[0.159906] (camera_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/group5/bin_weighing_ws/build/camera_ros', '--', '-j4', '-l4'], 'cwd': '/home/group5/bin_weighing_ws/build/camera_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'group5', 'SSH_CLIENT': '192.168.137.1 57141 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/group5/bin_weighing_ws/install/camera_ros/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/group5', 'OLDPWD': '/home/group5/bin_weighing_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/group5/bin_weighing_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'group5', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'PATH': '/home/group5/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/etc/fastdds_no_shm.xml', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/group5/bin_weighing_ws/install/hx711_scale:/home/group5/bin_weighing_ws/install/gv_ros2:/home/group5/bin_weighing_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'FASTDDS_DISABLE_SHM': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/group5/bin_weighing_ws/build/camera_ros', 'SSH_CONNECTION': '192.168.137.1 57141 192.168.137.149 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/group5/bin_weighing_ws/build/hx711_scale:/home/group5/bin_weighing_ws/install/hx711_scale/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/group5/bin_weighing_ws/install/gv_ros2:/home/group5/bin_weighing_ws/install/camera_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/group5/bin_weighing_ws/install/hx711_scale:/opt/ros/jazzy'}), 'shell': False}
+[0.182200] (gv_ros2) JobProgress: {'identifier': 'gv_ros2', 'progress': 'cmake'}
+[0.194244] (gv_ros2) JobProgress: {'identifier': 'gv_ros2', 'progress': 'build'}
+[0.201232] (gv_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/group5/bin_weighing_ws/build/gv_ros2', '--', '-j4', '-l4'], 'cwd': '/home/group5/bin_weighing_ws/build/gv_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'group5', 'SSH_CLIENT': '192.168.137.1 57141 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/group5/bin_weighing_ws/install/camera_ros/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/group5', 'OLDPWD': '/home/group5/bin_weighing_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/group5/bin_weighing_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'group5', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'PATH': '/home/group5/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/etc/fastdds_no_shm.xml', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/group5/bin_weighing_ws/install/hx711_scale:/home/group5/bin_weighing_ws/install/gv_ros2:/home/group5/bin_weighing_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'FASTDDS_DISABLE_SHM': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/group5/bin_weighing_ws/build/gv_ros2', 'SSH_CONNECTION': '192.168.137.1 57141 192.168.137.149 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/group5/bin_weighing_ws/build/hx711_scale:/home/group5/bin_weighing_ws/install/hx711_scale/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/group5/bin_weighing_ws/install/gv_ros2:/home/group5/bin_weighing_ws/install/camera_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/group5/bin_weighing_ws/install/hx711_scale:/opt/ros/jazzy'}), 'shell': False}
+[0.208655] (-) TimerEvent: {}
+[0.312443] (-) TimerEvent: {}
+[0.423655] (-) TimerEvent: {}
+[0.527378] (-) TimerEvent: {}
+[0.632630] (-) TimerEvent: {}
+[0.738250] (-) TimerEvent: {}
+[0.854911] (-) TimerEvent: {}
+[0.957304] (-) TimerEvent: {}
+[1.014331] (camera_ros) StdoutLine: {'line': b'[ 15%] Built target utils\n'}
+[1.062645] (-) TimerEvent: {}
+[1.119493] (camera_ros) StdoutLine: {'line': b'[ 69%] Built target param\n'}
+[1.164798] (-) TimerEvent: {}
+[1.200876] (camera_ros) StdoutLine: {'line': b'[ 84%] Built target camera_node\n'}
+[1.265276] (-) TimerEvent: {}
+[1.370479] (-) TimerEvent: {}
+[1.389466] (gv_ros2) StdoutLine: {'line': b'[100%] Built target gv_ros2_node\n'}
+[1.471167] (-) TimerEvent: {}
+[1.476446] (camera_ros) StdoutLine: {'line': b'[100%] Built target camera_component\n'}
+[1.571881] (-) TimerEvent: {}
+[1.673803] (-) TimerEvent: {}
+[1.775164] (-) TimerEvent: {}
+[1.876479] (-) TimerEvent: {}
+[1.977527] (-) TimerEvent: {}
+[2.079177] (-) TimerEvent: {}
+[2.180610] (-) TimerEvent: {}
+[2.281968] (-) TimerEvent: {}
+[2.383617] (-) TimerEvent: {}
+[2.485576] (-) TimerEvent: {}
+[2.587350] (gv_ros2) CommandEnded: {'returncode': 0}
+[2.589437] (-) TimerEvent: {}
+[2.592531] (gv_ros2) JobProgress: {'identifier': 'gv_ros2', 'progress': 'install'}
+[2.666120] (gv_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/group5/bin_weighing_ws/build/gv_ros2'], 'cwd': '/home/group5/bin_weighing_ws/build/gv_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'group5', 'SSH_CLIENT': '192.168.137.1 57141 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/group5/bin_weighing_ws/install/camera_ros/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/group5', 'OLDPWD': '/home/group5/bin_weighing_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/group5/bin_weighing_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'group5', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'PATH': '/home/group5/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/etc/fastdds_no_shm.xml', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/group5/bin_weighing_ws/install/hx711_scale:/home/group5/bin_weighing_ws/install/gv_ros2:/home/group5/bin_weighing_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'FASTDDS_DISABLE_SHM': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/group5/bin_weighing_ws/build/gv_ros2', 'SSH_CONNECTION': '192.168.137.1 57141 192.168.137.149 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/group5/bin_weighing_ws/build/hx711_scale:/home/group5/bin_weighing_ws/install/hx711_scale/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/group5/bin_weighing_ws/install/gv_ros2:/home/group5/bin_weighing_ws/install/camera_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/group5/bin_weighing_ws/install/hx711_scale:/opt/ros/jazzy'}), 'shell': False}
+[2.676648] (camera_ros) CommandEnded: {'returncode': 0}
+[2.681328] (camera_ros) JobProgress: {'identifier': 'camera_ros', 'progress': 'install'}
+[2.687513] (camera_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/group5/bin_weighing_ws/build/camera_ros'], 'cwd': '/home/group5/bin_weighing_ws/build/camera_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'group5', 'SSH_CLIENT': '192.168.137.1 57141 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/group5/bin_weighing_ws/install/camera_ros/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/group5', 'OLDPWD': '/home/group5/bin_weighing_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/group5/bin_weighing_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'group5', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'PATH': '/home/group5/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/etc/fastdds_no_shm.xml', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/group5/bin_weighing_ws/install/hx711_scale:/home/group5/bin_weighing_ws/install/gv_ros2:/home/group5/bin_weighing_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'FASTDDS_DISABLE_SHM': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/group5/bin_weighing_ws/build/camera_ros', 'SSH_CONNECTION': '192.168.137.1 57141 192.168.137.149 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/group5/bin_weighing_ws/build/hx711_scale:/home/group5/bin_weighing_ws/install/hx711_scale/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/group5/bin_weighing_ws/install/gv_ros2:/home/group5/bin_weighing_ws/install/camera_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/group5/bin_weighing_ws/install/hx711_scale:/opt/ros/jazzy'}), 'shell': False}
+[2.691500] (-) TimerEvent: {}
+[2.746961] (gv_ros2) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[2.765123] (gv_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.773140] (gv_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/lib/gv_ros2/gv_ros2_node\n'}
+[2.783356] (camera_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.784936] (gv_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/launch/bin_weighing.launch.py\n'}
+[2.791431] (camera_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.792931] (-) TimerEvent: {}
+[2.794407] (gv_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/launch/gv_camera.launch.py\n'}
+[2.797992] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/lib/camera_ros/camera_node\n'}
+[2.802156] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/environment/library_path.sh\n'}
+[2.806177] (gv_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/config/camera_config.yaml\n'}
+[2.807656] (gv_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/ament_index/resource_index/package_run_dependencies/gv_ros2\n'}
+[2.809948] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/environment/library_path.dsv\n'}
+[2.811993] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros//launch/camera.launch.py\n'}
+[2.813787] (gv_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/ament_index/resource_index/parent_prefix_path/gv_ros2\n'}
+[2.815697] (gv_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/environment/ament_prefix_path.sh\n'}
+[2.817058] (gv_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/environment/ament_prefix_path.dsv\n'}
+[2.817683] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/ament_index/resource_index/package_run_dependencies/camera_ros\n'}
+[2.818402] (gv_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/environment/path.sh\n'}
+[2.819251] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/ament_index/resource_index/parent_prefix_path/camera_ros\n'}
+[2.820363] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.sh\n'}
+[2.820955] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.dsv\n'}
+[2.823428] (gv_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/environment/path.dsv\n'}
+[2.826927] (gv_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/local_setup.bash\n'}
+[2.828342] (gv_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/local_setup.sh\n'}
+[2.829652] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/environment/path.sh\n'}
+[2.831292] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/environment/path.dsv\n'}
+[2.833665] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/local_setup.bash\n'}
+[2.834824] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/local_setup.sh\n'}
+[2.835993] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/local_setup.zsh\n'}
+[2.837291] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/local_setup.dsv\n'}
+[2.838357] (camera_ros) StdoutLine: {'line': b'-- Symlinking: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/package.dsv\n'}
+[2.839765] (gv_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/local_setup.zsh\n'}
+[2.842159] (gv_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/local_setup.dsv\n'}
+[2.843484] (gv_ros2) StdoutLine: {'line': b'-- Symlinking: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/package.dsv\n'}
+[2.895861] (-) TimerEvent: {}
+[2.962614] (gv_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/ament_index/resource_index/packages/gv_ros2\n'}
+[2.965711] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/ament_index/resource_index/packages/camera_ros\n'}
+[2.967479] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/ament_index/resource_index/rclcpp_components/camera_ros\n'}
+[2.975482] (gv_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/cmake/gv_ros2Config.cmake\n'}
+[2.976957] (gv_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/cmake/gv_ros2Config-version.cmake\n'}
+[2.982203] (gv_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/package.xml\n'}
+[2.987851] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.988975] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.994534] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig.cmake\n'}
+[2.995478] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig-version.cmake\n'}
+[2.996671] (-) TimerEvent: {}
+[3.001326] (camera_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/package.xml\n'}
+[3.006488] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/group5/bin_weighing_ws/install/camera_ros/lib/libcamera_component.so\n'}
+[3.015828] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/cmake/camera_componentTargetsExport.cmake\n'}
+[3.018960] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/cmake/camera_componentTargetsExport-noconfig.cmake\n'}
+[3.021266] (camera_ros) CommandEnded: {'returncode': 0}
+[3.097877] (-) TimerEvent: {}
+[3.192126] (camera_ros) JobEnded: {'identifier': 'camera_ros', 'rc': 0}
+[3.204486] (-) TimerEvent: {}
+[3.207935] (gv_ros2) CommandEnded: {'returncode': 0}
+[3.306593] (-) TimerEvent: {}
+[3.330227] (gv_ros2) JobEnded: {'identifier': 'gv_ros2', 'rc': 0}
+[3.406892] (-) TimerEvent: {}
+[3.508199] (-) TimerEvent: {}
+[3.609381] (-) TimerEvent: {}
+[3.710487] (-) TimerEvent: {}
+[3.811454] (-) TimerEvent: {}
+[3.912911] (-) TimerEvent: {}
+[4.014574] (-) TimerEvent: {}
+[4.115714] (-) TimerEvent: {}
+[4.216860] (-) TimerEvent: {}
+[4.317858] (-) TimerEvent: {}
+[4.419778] (-) TimerEvent: {}
+[4.521074] (-) TimerEvent: {}
+[4.622211] (-) TimerEvent: {}
+[4.723163] (-) TimerEvent: {}
+[4.824274] (-) TimerEvent: {}
+[4.925316] (-) TimerEvent: {}
+[5.026786] (-) TimerEvent: {}
+[5.128256] (-) TimerEvent: {}
+[5.229332] (-) TimerEvent: {}
+[5.330607] (-) TimerEvent: {}
+[5.431868] (-) TimerEvent: {}
+[5.533290] (-) TimerEvent: {}
+[5.634561] (-) TimerEvent: {}
+[5.736426] (-) TimerEvent: {}
+[5.837693] (-) TimerEvent: {}
+[5.939259] (-) TimerEvent: {}
+[6.041481] (-) TimerEvent: {}
+[6.142817] (-) TimerEvent: {}
+[6.244332] (-) TimerEvent: {}
+[6.345748] (-) TimerEvent: {}
+[6.446895] (-) TimerEvent: {}
+[6.548503] (-) TimerEvent: {}
+[6.649393] (-) TimerEvent: {}
+[6.750540] (-) TimerEvent: {}
+[6.851729] (-) TimerEvent: {}
+[6.952872] (-) TimerEvent: {}
+[7.054553] (-) TimerEvent: {}
+[7.155698] (-) TimerEvent: {}
+[7.257389] (-) TimerEvent: {}
+[7.358818] (-) TimerEvent: {}
+[7.460575] (-) TimerEvent: {}
+[7.561502] (-) TimerEvent: {}
+[7.662673] (-) TimerEvent: {}
+[7.763753] (-) TimerEvent: {}
+[7.864879] (-) TimerEvent: {}
+[7.966226] (-) TimerEvent: {}
+[8.036891] (hx711_scale) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/hx711_scale', 'build', '--build-base', '/home/group5/bin_weighing_ws/build/hx711_scale/build', 'install', '--record', '/home/group5/bin_weighing_ws/build/hx711_scale/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/group5/bin_weighing_ws/src/hx711_scale', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'group5', 'SSH_CLIENT': '192.168.137.1 57141 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/group5/bin_weighing_ws/install/camera_ros/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/group5', 'OLDPWD': '/home/group5/bin_weighing_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/group5/bin_weighing_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'group5', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'PATH': '/home/group5/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/etc/fastdds_no_shm.xml', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/group5/bin_weighing_ws/install/hx711_scale:/home/group5/bin_weighing_ws/install/gv_ros2:/home/group5/bin_weighing_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'FASTDDS_DISABLE_SHM': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/group5/bin_weighing_ws/build/hx711_scale', 'SSH_CONNECTION': '192.168.137.1 57141 192.168.137.149 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/group5/bin_weighing_ws/build/hx711_scale/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/group5/bin_weighing_ws/install/hx711_scale/lib/python3.12/site-packages:/home/group5/bin_weighing_ws/build/hx711_scale:/home/group5/bin_weighing_ws/install/hx711_scale/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/group5/bin_weighing_ws/install/gv_ros2:/home/group5/bin_weighing_ws/install/camera_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[8.066474] (-) TimerEvent: {}
+[8.168090] (-) TimerEvent: {}
+[8.269507] (-) TimerEvent: {}
+[8.371211] (-) TimerEvent: {}
+[8.472367] (-) TimerEvent: {}
+[8.573815] (-) TimerEvent: {}
+[8.675010] (-) TimerEvent: {}
+[8.776596] (-) TimerEvent: {}
+[8.877871] (-) TimerEvent: {}
+[8.979428] (-) TimerEvent: {}
+[9.080577] (-) TimerEvent: {}
+[9.181823] (-) TimerEvent: {}
+[9.283266] (-) TimerEvent: {}
+[9.384682] (-) TimerEvent: {}
+[9.486006] (-) TimerEvent: {}
+[9.587217] (-) TimerEvent: {}
+[9.688152] (-) TimerEvent: {}
+[9.789219] (-) TimerEvent: {}
+[9.890629] (-) TimerEvent: {}
+[9.992205] (-) TimerEvent: {}
+[10.093580] (-) TimerEvent: {}
+[10.194860] (-) TimerEvent: {}
+[10.280193] (hx711_scale) StdoutLine: {'line': b'running egg_info\n'}
+[10.295223] (-) TimerEvent: {}
+[10.396463] (-) TimerEvent: {}
+[10.445661] (hx711_scale) StdoutLine: {'line': b'writing ../../build/hx711_scale/hx711_scale.egg-info/PKG-INFO\n'}
+[10.448616] (hx711_scale) StdoutLine: {'line': b'writing dependency_links to ../../build/hx711_scale/hx711_scale.egg-info/dependency_links.txt\n'}
+[10.451905] (hx711_scale) StdoutLine: {'line': b'writing entry points to ../../build/hx711_scale/hx711_scale.egg-info/entry_points.txt\n'}
+[10.453690] (hx711_scale) StdoutLine: {'line': b'writing requirements to ../../build/hx711_scale/hx711_scale.egg-info/requires.txt\n'}
+[10.455651] (hx711_scale) StdoutLine: {'line': b'writing top-level names to ../../build/hx711_scale/hx711_scale.egg-info/top_level.txt\n'}
+[10.496900] (-) TimerEvent: {}
+[10.598413] (-) TimerEvent: {}
+[10.699507] (-) TimerEvent: {}
+[10.792095] (hx711_scale) StdoutLine: {'line': b"reading manifest file '../../build/hx711_scale/hx711_scale.egg-info/SOURCES.txt'\n"}
+[10.796725] (hx711_scale) StdoutLine: {'line': b"writing manifest file '../../build/hx711_scale/hx711_scale.egg-info/SOURCES.txt'\n"}
+[10.798007] (hx711_scale) StdoutLine: {'line': b'running build\n'}
+[10.799358] (hx711_scale) StdoutLine: {'line': b'running build_py\n'}
+[10.800307] (-) TimerEvent: {}
+[10.802669] (hx711_scale) StdoutLine: {'line': b'running install\n'}
+[10.842688] (hx711_scale) StdoutLine: {'line': b'running install_lib\n'}
+[10.900686] (-) TimerEvent: {}
+[11.002207] (-) TimerEvent: {}
+[11.021773] (hx711_scale) StdoutLine: {'line': b'running install_data\n'}
+[11.023213] (hx711_scale) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.102498] (-) TimerEvent: {}
+[11.200648] (hx711_scale) StdoutLine: {'line': b"removing '/home/group5/bin_weighing_ws/install/hx711_scale/lib/python3.12/site-packages/hx711_scale-0.0.1-py3.12.egg-info' (and everything under it)\n"}
+[11.202745] (-) TimerEvent: {}
+[11.203976] (hx711_scale) StdoutLine: {'line': b'Copying ../../build/hx711_scale/hx711_scale.egg-info to /home/group5/bin_weighing_ws/install/hx711_scale/lib/python3.12/site-packages/hx711_scale-0.0.1-py3.12.egg-info\n'}
+[11.212268] (hx711_scale) StdoutLine: {'line': b'running install_scripts\n'}
+[11.302959] (-) TimerEvent: {}
+[11.403956] (-) TimerEvent: {}
+[11.505790] (-) TimerEvent: {}
+[11.607135] (-) TimerEvent: {}
+[11.708549] (-) TimerEvent: {}
+[11.809742] (-) TimerEvent: {}
+[11.911449] (-) TimerEvent: {}
+[12.012864] (-) TimerEvent: {}
+[12.114144] (-) TimerEvent: {}
+[12.215365] (-) TimerEvent: {}
+[12.316629] (-) TimerEvent: {}
+[12.407400] (hx711_scale) StdoutLine: {'line': b'Installing calibration_node script to /home/group5/bin_weighing_ws/install/hx711_scale/lib/hx711_scale\n'}
+[12.409125] (hx711_scale) StdoutLine: {'line': b'Installing scale_node script to /home/group5/bin_weighing_ws/install/hx711_scale/lib/hx711_scale\n'}
+[12.413870] (hx711_scale) StdoutLine: {'line': b"writing list of installed files to '/home/group5/bin_weighing_ws/build/hx711_scale/install.log'\n"}
+[12.417017] (-) TimerEvent: {}
+[12.518837] (-) TimerEvent: {}
+[12.620329] (-) TimerEvent: {}
+[12.721640] (-) TimerEvent: {}
+[12.756593] (hx711_scale) CommandEnded: {'returncode': 0}
+[12.802101] (hx711_scale) JobEnded: {'identifier': 'hx711_scale', 'rc': 0}
+[12.807758] (-) EventReactorShutdown: {}

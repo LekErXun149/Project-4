@@ -1,0 +1,13 @@
+/home/group5/bin_weighing_ws/build/camera_ros/CMakeFiles/uninstall.dir
+/home/group5/bin_weighing_ws/build/camera_ros/CMakeFiles/camera_ros_uninstall.dir
+/home/group5/bin_weighing_ws/build/camera_ros/CMakeFiles/utils.dir
+/home/group5/bin_weighing_ws/build/camera_ros/CMakeFiles/param.dir
+/home/group5/bin_weighing_ws/build/camera_ros/CMakeFiles/camera_component.dir
+/home/group5/bin_weighing_ws/build/camera_ros/CMakeFiles/camera_node.dir
+/home/group5/bin_weighing_ws/build/camera_ros/CMakeFiles/test.dir
+/home/group5/bin_weighing_ws/build/camera_ros/CMakeFiles/edit_cache.dir
+/home/group5/bin_weighing_ws/build/camera_ros/CMakeFiles/rebuild_cache.dir
+/home/group5/bin_weighing_ws/build/camera_ros/CMakeFiles/list_install_components.dir
+/home/group5/bin_weighing_ws/build/camera_ros/CMakeFiles/install.dir
+/home/group5/bin_weighing_ws/build/camera_ros/CMakeFiles/install/local.dir
+/home/group5/bin_weighing_ws/build/camera_ros/CMakeFiles/install/strip.dir

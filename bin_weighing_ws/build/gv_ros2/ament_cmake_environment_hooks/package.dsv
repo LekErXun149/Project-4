@@ -1,0 +1,4 @@
+source;share/gv_ros2/local_setup.bash
+source;share/gv_ros2/local_setup.dsv
+source;share/gv_ros2/local_setup.sh
+source;share/gv_ros2/local_setup.zsh

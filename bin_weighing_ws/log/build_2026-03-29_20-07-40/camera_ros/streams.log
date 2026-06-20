@@ -1,0 +1,35 @@
+[0.162s] Invoking command in '/home/group5/bin_weighing_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group5/bin_weighing_ws/install/hx711_scale:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/group5/bin_weighing_ws/build/camera_ros -- -j4 -l4
+[1.011s] [ 15%] Built target utils
+[1.116s] [ 69%] Built target param
+[1.197s] [ 84%] Built target camera_node
+[1.472s] [100%] Built target camera_component
+[2.673s] Invoked command in '/home/group5/bin_weighing_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group5/bin_weighing_ws/install/hx711_scale:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/group5/bin_weighing_ws/build/camera_ros -- -j4 -l4
+[2.684s] Invoking command in '/home/group5/bin_weighing_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group5/bin_weighing_ws/install/hx711_scale:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/group5/bin_weighing_ws/build/camera_ros
+[2.779s] -- Install configuration: ""
+[2.787s] -- Execute custom install script
+[2.796s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/lib/camera_ros/camera_node
+[2.800s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/environment/library_path.sh
+[2.806s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/environment/library_path.dsv
+[2.808s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros//launch/camera.launch.py
+[2.813s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/ament_index/resource_index/package_run_dependencies/camera_ros
+[2.815s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/ament_index/resource_index/parent_prefix_path/camera_ros
+[2.816s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.sh
+[2.817s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.dsv
+[2.825s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/environment/path.sh
+[2.828s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/environment/path.dsv
+[2.829s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/local_setup.bash
+[2.830s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/local_setup.sh
+[2.832s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/local_setup.zsh
+[2.833s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/local_setup.dsv
+[2.834s] -- Symlinking: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/package.dsv
+[2.962s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/ament_index/resource_index/packages/camera_ros
+[2.969s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/ament_index/resource_index/rclcpp_components/camera_ros
+[2.983s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/cmake/ament_cmake_export_targets-extras.cmake
+[2.989s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.990s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig.cmake
+[2.991s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig-version.cmake
+[2.999s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/package.xml
+[3.009s] -- Up-to-date: /home/group5/bin_weighing_ws/install/camera_ros/lib/libcamera_component.so
+[3.013s] -- Up-to-date: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/cmake/camera_componentTargetsExport.cmake
+[3.015s] -- Up-to-date: /home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/cmake/camera_componentTargetsExport-noconfig.cmake
+[3.020s] Invoked command in '/home/group5/bin_weighing_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group5/bin_weighing_ws/install/hx711_scale:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/group5/bin_weighing_ws/build/camera_ros

@@ -1,0 +1,26 @@
+[0.144s] Invoking command in '/home/group5/bin_weighing_ws/build/gv_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group5/bin_weighing_ws/install/hx711_scale:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/group5/bin_weighing_ws/build/gv_ros2 -- -j4 -l4
+[1.330s] [100%] Built target gv_ros2_node
+[2.524s] Invoked command in '/home/group5/bin_weighing_ws/build/gv_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group5/bin_weighing_ws/install/hx711_scale:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/group5/bin_weighing_ws/build/gv_ros2 -- -j4 -l4
+[2.609s] Invoking command in '/home/group5/bin_weighing_ws/build/gv_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group5/bin_weighing_ws/install/hx711_scale:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/group5/bin_weighing_ws/build/gv_ros2
+[2.691s] -- Install configuration: "Debug"
+[2.708s] -- Execute custom install script
+[2.715s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/lib/gv_ros2/gv_ros2_node
+[2.725s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/launch/bin_weighing.launch.py
+[2.733s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/launch/gv_camera.launch.py
+[2.743s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/config/camera_config.yaml
+[2.745s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/ament_index/resource_index/package_run_dependencies/gv_ros2
+[2.751s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/ament_index/resource_index/parent_prefix_path/gv_ros2
+[2.753s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/environment/ament_prefix_path.sh
+[2.753s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/environment/ament_prefix_path.dsv
+[2.755s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/environment/path.sh
+[2.762s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/environment/path.dsv
+[2.764s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/local_setup.bash
+[2.765s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/local_setup.sh
+[2.778s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/local_setup.zsh
+[2.779s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/local_setup.dsv
+[2.781s] -- Symlinking: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/package.dsv
+[2.900s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/ament_index/resource_index/packages/gv_ros2
+[2.913s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/cmake/gv_ros2Config.cmake
+[2.918s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/cmake/gv_ros2Config-version.cmake
+[2.919s] -- Up-to-date symlink: /home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/package.xml
+[3.148s] Invoked command in '/home/group5/bin_weighing_ws/build/gv_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group5/bin_weighing_ws/install/hx711_scale:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/group5/bin_weighing_ws/build/gv_ros2

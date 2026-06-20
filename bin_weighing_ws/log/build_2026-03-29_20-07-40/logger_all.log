@@ -1,0 +1,238 @@
+[0.835s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.836s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff96004bf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff961f1760>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff961f1760>>)
+[1.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.141s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/group5/bin_weighing_ws'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros) by extension 'ignore'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros) by extension 'ignore_ament_install'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros) by extensions ['colcon_pkg']
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros) by extension 'colcon_pkg'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros) by extensions ['colcon_meta']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros) by extension 'colcon_meta'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros) by extensions ['ros']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_ros) by extension 'ros'
+[1.390s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_ros' with type 'ros.ament_cmake' and name 'camera_ros'
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/gv_ros2_node) by extensions ['ignore', 'ignore_ament_install']
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/gv_ros2_node) by extension 'ignore'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/gv_ros2_node) by extension 'ignore_ament_install'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/gv_ros2_node) by extensions ['colcon_pkg']
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/gv_ros2_node) by extension 'colcon_pkg'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/gv_ros2_node) by extensions ['colcon_meta']
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/gv_ros2_node) by extension 'colcon_meta'
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/gv_ros2_node) by extensions ['ros']
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/gv_ros2_node) by extension 'ros'
+[1.397s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gv_ros2_node' with type 'ros.ament_cmake' and name 'gv_ros2'
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/hx711_scale) by extensions ['ignore', 'ignore_ament_install']
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/hx711_scale) by extension 'ignore'
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/hx711_scale) by extension 'ignore_ament_install'
+[1.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/hx711_scale) by extensions ['colcon_pkg']
+[1.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/hx711_scale) by extension 'colcon_pkg'
+[1.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/hx711_scale) by extensions ['colcon_meta']
+[1.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/hx711_scale) by extension 'colcon_meta'
+[1.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/hx711_scale) by extensions ['ros']
+[1.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/hx711_scale) by extension 'ros'
+[1.404s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hx711_scale' with type 'ros.ament_python' and name 'hx711_scale'
+[1.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'camera_ros' build argument 'cmake_args' from command line to 'None'
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'camera_ros' build argument 'cmake_target' from command line to 'None'
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'camera_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'camera_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'camera_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.542s] Level 5:colcon.colcon_core.verb:set package 'camera_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.542s] Level 5:colcon.colcon_core.verb:set package 'camera_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.542s] Level 5:colcon.colcon_core.verb:set package 'camera_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.542s] Level 5:colcon.colcon_core.verb:set package 'camera_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.542s] DEBUG:colcon.colcon_core.verb:Building package 'camera_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/group5/bin_weighing_ws/build/camera_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/group5/bin_weighing_ws/install/camera_ros', 'merge_install': False, 'path': '/home/group5/bin_weighing_ws/src/camera_ros', 'symlink_install': False, 'test_result_base': None}
+[1.544s] Level 5:colcon.colcon_core.verb:set package 'gv_ros2' build argument 'cmake_args' from command line to 'None'
+[1.544s] Level 5:colcon.colcon_core.verb:set package 'gv_ros2' build argument 'cmake_target' from command line to 'None'
+[1.544s] Level 5:colcon.colcon_core.verb:set package 'gv_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.544s] Level 5:colcon.colcon_core.verb:set package 'gv_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.544s] Level 5:colcon.colcon_core.verb:set package 'gv_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.545s] Level 5:colcon.colcon_core.verb:set package 'gv_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.545s] Level 5:colcon.colcon_core.verb:set package 'gv_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.545s] Level 5:colcon.colcon_core.verb:set package 'gv_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.545s] Level 5:colcon.colcon_core.verb:set package 'gv_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.545s] DEBUG:colcon.colcon_core.verb:Building package 'gv_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/group5/bin_weighing_ws/build/gv_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/group5/bin_weighing_ws/install/gv_ros2', 'merge_install': False, 'path': '/home/group5/bin_weighing_ws/src/gv_ros2_node', 'symlink_install': False, 'test_result_base': None}
+[1.547s] Level 5:colcon.colcon_core.verb:set package 'hx711_scale' build argument 'cmake_args' from command line to 'None'
+[1.547s] Level 5:colcon.colcon_core.verb:set package 'hx711_scale' build argument 'cmake_target' from command line to 'None'
+[1.547s] Level 5:colcon.colcon_core.verb:set package 'hx711_scale' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.547s] Level 5:colcon.colcon_core.verb:set package 'hx711_scale' build argument 'cmake_clean_cache' from command line to 'False'
+[1.547s] Level 5:colcon.colcon_core.verb:set package 'hx711_scale' build argument 'cmake_clean_first' from command line to 'False'
+[1.547s] Level 5:colcon.colcon_core.verb:set package 'hx711_scale' build argument 'cmake_force_configure' from command line to 'False'
+[1.547s] Level 5:colcon.colcon_core.verb:set package 'hx711_scale' build argument 'ament_cmake_args' from command line to 'None'
+[1.548s] Level 5:colcon.colcon_core.verb:set package 'hx711_scale' build argument 'catkin_cmake_args' from command line to 'None'
+[1.548s] Level 5:colcon.colcon_core.verb:set package 'hx711_scale' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.548s] DEBUG:colcon.colcon_core.verb:Building package 'hx711_scale' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/group5/bin_weighing_ws/build/hx711_scale', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/group5/bin_weighing_ws/install/hx711_scale', 'merge_install': False, 'path': '/home/group5/bin_weighing_ws/src/hx711_scale', 'symlink_install': False, 'test_result_base': None}
+[1.549s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.556s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.558s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/group5/bin_weighing_ws/src/camera_ros' with build type 'ament_cmake'
+[1.559s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/group5/bin_weighing_ws/src/camera_ros'
+[1.575s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.618s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/group5/bin_weighing_ws/src/gv_ros2_node' with build type 'ament_cmake'
+[1.619s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/group5/bin_weighing_ws/src/gv_ros2_node'
+[1.622s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.650s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/group5/bin_weighing_ws/src/hx711_scale' with build type 'ament_python'
+[1.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('hx711_scale', 'ament_prefix_path')
+[1.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/group5/bin_weighing_ws/install/hx711_scale/share/hx711_scale/hook/ament_prefix_path.dsv'
+[1.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group5/bin_weighing_ws/install/hx711_scale/share/hx711_scale/hook/ament_prefix_path.sh'
+[1.666s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/group5/bin_weighing_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group5/bin_weighing_ws/install/hx711_scale:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/group5/bin_weighing_ws/build/camera_ros -- -j4 -l4
+[1.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/group5/bin_weighing_ws/build/gv_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group5/bin_weighing_ws/install/hx711_scale:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/group5/bin_weighing_ws/build/gv_ros2 -- -j4 -l4
+[4.106s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/group5/bin_weighing_ws/src/hx711_scale'
+[4.108s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/group5/bin_weighing_ws/build/gv_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group5/bin_weighing_ws/install/hx711_scale:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/group5/bin_weighing_ws/build/gv_ros2 -- -j4 -l4
+[4.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/group5/bin_weighing_ws/build/gv_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group5/bin_weighing_ws/install/hx711_scale:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/group5/bin_weighing_ws/build/gv_ros2
+[4.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/group5/bin_weighing_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group5/bin_weighing_ws/install/hx711_scale:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/group5/bin_weighing_ws/build/camera_ros -- -j4 -l4
+[4.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/group5/bin_weighing_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group5/bin_weighing_ws/install/hx711_scale:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/group5/bin_weighing_ws/build/camera_ros
+[4.563s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_ros)
+[4.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/group5/bin_weighing_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group5/bin_weighing_ws/install/hx711_scale:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/group5/bin_weighing_ws/build/camera_ros
+[4.605s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/camera_ros' for CMake module files
+[4.611s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/camera_ros' for CMake config files
+[4.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_ros', 'cmake_prefix_path')
+[4.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/hook/cmake_prefix_path.dsv'
+[4.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/hook/cmake_prefix_path.sh'
+[4.625s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/camera_ros/lib'
+[4.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_ros', 'ld_library_path_lib')
+[4.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/hook/ld_library_path_lib.dsv'
+[4.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/hook/ld_library_path_lib.sh'
+[4.635s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/camera_ros/bin'
+[4.636s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/camera_ros/lib/pkgconfig/camera_ros.pc'
+[4.638s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/camera_ros/lib/python3.12/site-packages'
+[4.642s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/camera_ros/bin'
+[4.645s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/package.dsv'
+[4.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/package.sh'
+[4.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/package.bash'
+[4.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/package.zsh'
+[4.677s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/group5/bin_weighing_ws/install/camera_ros/share/colcon-core/packages/camera_ros)
+[4.685s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_ros)
+[4.686s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/camera_ros' for CMake module files
+[4.691s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/camera_ros' for CMake config files
+[4.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_ros', 'cmake_prefix_path')
+[4.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/hook/cmake_prefix_path.dsv'
+[4.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/hook/cmake_prefix_path.sh'
+[4.709s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/camera_ros/lib'
+[4.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_ros', 'ld_library_path_lib')
+[4.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/hook/ld_library_path_lib.dsv'
+[4.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/hook/ld_library_path_lib.sh'
+[4.718s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/camera_ros/bin'
+[4.719s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/camera_ros/lib/pkgconfig/camera_ros.pc'
+[4.720s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/camera_ros/lib/python3.12/site-packages'
+[4.723s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/camera_ros/bin'
+[4.724s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/package.dsv'
+[4.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/package.sh'
+[4.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/package.bash'
+[4.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/group5/bin_weighing_ws/install/camera_ros/share/camera_ros/package.zsh'
+[4.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/group5/bin_weighing_ws/install/camera_ros/share/colcon-core/packages/camera_ros)
+[4.748s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gv_ros2)
+[4.752s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/gv_ros2' for CMake module files
+[4.765s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/gv_ros2' for CMake config files
+[4.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/group5/bin_weighing_ws/build/gv_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group5/bin_weighing_ws/install/hx711_scale:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/group5/bin_weighing_ws/build/gv_ros2
+[4.772s] Level 1:colcon.colcon_core.shell:create_environment_hook('gv_ros2', 'cmake_prefix_path')
+[4.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/hook/cmake_prefix_path.dsv'
+[4.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/hook/cmake_prefix_path.sh'
+[4.783s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/gv_ros2/lib'
+[4.784s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/gv_ros2/bin'
+[4.785s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/gv_ros2/lib/pkgconfig/gv_ros2.pc'
+[4.786s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/gv_ros2/lib/python3.12/site-packages'
+[4.790s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/gv_ros2/bin'
+[4.794s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/package.dsv'
+[4.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/package.sh'
+[4.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/package.bash'
+[4.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/package.zsh'
+[4.814s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/group5/bin_weighing_ws/install/gv_ros2/share/colcon-core/packages/gv_ros2)
+[4.819s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gv_ros2)
+[4.820s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/gv_ros2' for CMake module files
+[4.827s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/gv_ros2' for CMake config files
+[4.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('gv_ros2', 'cmake_prefix_path')
+[4.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/hook/cmake_prefix_path.dsv'
+[4.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/hook/cmake_prefix_path.sh'
+[4.846s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/gv_ros2/lib'
+[4.848s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/gv_ros2/bin'
+[4.849s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/gv_ros2/lib/pkgconfig/gv_ros2.pc'
+[4.852s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/gv_ros2/lib/python3.12/site-packages'
+[4.857s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/gv_ros2/bin'
+[4.860s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/package.dsv'
+[4.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/package.sh'
+[4.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/package.bash'
+[4.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/group5/bin_weighing_ws/install/gv_ros2/share/gv_ros2/package.zsh'
+[4.882s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/group5/bin_weighing_ws/install/gv_ros2/share/colcon-core/packages/gv_ros2)
+[9.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/group5/bin_weighing_ws/src/hx711_scale': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/group5/bin_weighing_ws/build/hx711_scale/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/group5/bin_weighing_ws/install/hx711_scale/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hx711_scale build --build-base /home/group5/bin_weighing_ws/build/hx711_scale/build install --record /home/group5/bin_weighing_ws/build/hx711_scale/install.log --single-version-externally-managed install_data
+[14.310s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/hx711_scale' for CMake module files
+[14.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/group5/bin_weighing_ws/src/hx711_scale' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/group5/bin_weighing_ws/build/hx711_scale/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/group5/bin_weighing_ws/install/hx711_scale/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hx711_scale build --build-base /home/group5/bin_weighing_ws/build/hx711_scale/build install --record /home/group5/bin_weighing_ws/build/hx711_scale/install.log --single-version-externally-managed install_data
+[14.318s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/hx711_scale' for CMake config files
+[14.324s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/hx711_scale/lib'
+[14.325s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/hx711_scale/bin'
+[14.325s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/hx711_scale/lib/pkgconfig/hx711_scale.pc'
+[14.327s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/hx711_scale/lib/python3.12/site-packages'
+[14.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('hx711_scale', 'pythonpath')
+[14.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/group5/bin_weighing_ws/install/hx711_scale/share/hx711_scale/hook/pythonpath.dsv'
+[14.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group5/bin_weighing_ws/install/hx711_scale/share/hx711_scale/hook/pythonpath.sh'
+[14.337s] Level 1:colcon.colcon_core.environment:checking '/home/group5/bin_weighing_ws/install/hx711_scale/bin'
+[14.338s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hx711_scale)
+[14.340s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/group5/bin_weighing_ws/install/hx711_scale/share/hx711_scale/package.dsv'
+[14.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/group5/bin_weighing_ws/install/hx711_scale/share/hx711_scale/package.sh'
+[14.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/group5/bin_weighing_ws/install/hx711_scale/share/hx711_scale/package.bash'
+[14.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/group5/bin_weighing_ws/install/hx711_scale/share/hx711_scale/package.zsh'
+[14.354s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/group5/bin_weighing_ws/install/hx711_scale/share/colcon-core/packages/hx711_scale)
+[14.356s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.358s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.359s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.360s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.419s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.420s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.420s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.571s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.576s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/group5/bin_weighing_ws/install/local_setup.sh'
+[14.583s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/group5/bin_weighing_ws/install/_local_setup_util_sh.py'
+[14.594s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/group5/bin_weighing_ws/install/setup.sh'
+[14.604s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/group5/bin_weighing_ws/install/local_setup.bash'
+[14.609s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/group5/bin_weighing_ws/install/setup.bash'
+[14.619s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/group5/bin_weighing_ws/install/local_setup.zsh'
+[14.624s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/group5/bin_weighing_ws/install/setup.zsh'

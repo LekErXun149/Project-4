@@ -1,0 +1,1 @@
+/home/group5/bin_weighing_ws/build/gv_ros2/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,3 @@
+[console_scripts]
+calibration_node = hx711_scale.calibration_node:main
+scale_node = hx711_scale.scale_node:main

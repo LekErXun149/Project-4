@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/hx711_scale/hx711_scale.egg-info/PKG-INFO
+../../build/hx711_scale/hx711_scale.egg-info/SOURCES.txt
+../../build/hx711_scale/hx711_scale.egg-info/dependency_links.txt
+../../build/hx711_scale/hx711_scale.egg-info/entry_points.txt
+../../build/hx711_scale/hx711_scale.egg-info/requires.txt
+../../build/hx711_scale/hx711_scale.egg-info/top_level.txt
+hx711_scale/__init__.py
+hx711_scale/calibration_manager.py
+hx711_scale/calibration_node.py
+hx711_scale/hx711_driver.py
+hx711_scale/interpolation_logic.py
+hx711_scale/scale_node.py
+resource/hx711_scale

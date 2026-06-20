@@ -1,0 +1,4 @@
+source;share/hx711_scale/hook/pythonpath.dsv
+source;share/hx711_scale/hook/pythonpath.sh
+source;share/hx711_scale/hook/ament_prefix_path.dsv
+source;share/hx711_scale/hook/ament_prefix_path.sh

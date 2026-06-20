@@ -1,0 +1,1 @@
+/home/group5/bin_weighing_ws/src/camera_ros/launch/camera.launch.py
